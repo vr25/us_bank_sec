@@ -16,7 +16,7 @@ body
 
 *
 {
-  font-size: 8pt; 
+  font-size: 14pt; 
   font-family: Tahoma, Verdana, sans-serif; 
   color: #000000;
   text-align: left;
@@ -114,7 +114,6 @@ width:560px;
 	position: absolute;
 	vertical-align: middle;
 	background-color:#E7EDF8;
-	width:600px;
 	clear:both;
 }
 
