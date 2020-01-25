@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <style>
+
 ul {
-  list-style-type: none;
+  list-style-type: block;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -30,19 +32,28 @@ li a:hover {
 <body>
 
 <ul>
-  <!-- <li><a class="active" href="#home">Home</a></li> -->
-  <li><a class="active" href="#home">Data</a></li>
-  <li><a href="#pub">Publications</a></li>
-  <li><a href="#contact">Contact</a></li>
+
+  <li><a href="#data" onclick = "document.getElementById('data').style.display='block';">Data</a></li>
+  
+  <li><a href="#pub" onclick = "document.getElementById('pub').style.display='block';">Publications</a></li>
+  
+  <li><a href="#contact" onclick = "document.getElementById('contact').style.display='block';">Contact</a></li>
+  
 </ul>
-  
-<a name="pub">
-  <div id="pub">
-    <p>Publications</p>
-  </div>
-</a>
-  
+
+<div id = "data" style="display:none;" >
+	<p> US Banks' 10-K reports </p>
+    <p> US Banks' 8-K reports </p>
+</div>
+
+<div id = "about" style="display:none;" >
+	<p> <a href="http://www.cs.rpi.edu/~zaki/PaperDir/DSMM18.pdf">Analysis of year-over-year changes in Risk Factors Disclosure in 10-K filings</a>
+    </p>
+</div>
+
+<div id = "contact" style="display:none;" >
+	<p> Contact: <a href="https://github.com/vr25"> Vipula Rawte </a> </p>
+</div>
 
 </body>
 </html>
-
