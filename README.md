@@ -12,3 +12,6 @@ arg3: concat_t, concat_t1, changes(arg2 is always all_10-K_full.csv)
 
 
 All the results will be saved in mse_scores.txt
+
+
+The [results](https://docs.google.com/spreadsheets/d/17ixZNnsLHj0JHHOL2UrT7-I560pL8mA_34mnQmIGcfs/edit?usp=sharing) are updated too.
