@@ -14,6 +14,7 @@ arg3: None
 
 
 Common 8-K and 10-K:
+
 arg1: all_8-K_Q2.csv or all_8-K_data.csv
 
 arg2: all_10-K_sec_1A.csv or all_10-K_sec_7.csv or all_10-K_full.csv
