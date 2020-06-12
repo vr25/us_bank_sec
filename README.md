@@ -23,9 +23,7 @@ All 8-K or 10-K:
 
 arg1: ```all_8-K_Q2.csv``` or ```all_8-K_data.csv``` or ```all_10-K_sec_1A.csv``` or ```all_10-K_sec_7.csv``` or ```all_10-K_full.csv```
 
-arg2: None
-
-arg3: None
+arg2, arg3: Skip both! 
 
 
 Common 8-K and 10-K:
