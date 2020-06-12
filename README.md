@@ -1,3 +1,18 @@
+Using automatic attention score based word list to analyze SEC filings: 8-K, 10-K, and changes in 10-K reports of U.S. banks
+===============
+
+Code and data for "Using automatic attention score based word list to analyze SEC filings: 8-K, 10-K, and changes in 10-K reports of U.S. banks"
+
+## Prerequisites
+This code is written in python. To use it you will need:
+- Python 3.6
+- [PyTorch [PyTorch] = 1.2.0](https://pytorch.org/)
+- A recent version of [scikit-learn](https://scikit-learn.org/)
+- A recent version of [Numpy](http://www.numpy.org)
+- A recent version of [NLTK](http://www.nltk.org)
+- [Tensorflow = 1.15.2](https://www.tensorflow.org)
+
+## Getting started
 The data can be accessed at https://vr25.github.io/us_bank_sec/
 
 Please download all the data (csv files) from [Box](https://rpi.box.com/s/wiofkzqvin7hplraolan5lnt05fgduo6).
