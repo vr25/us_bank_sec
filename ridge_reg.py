@@ -79,7 +79,7 @@ def run_experiment(word_type, target, target_prev, data1, data2, data3, arg3, ba
             mse_file.write(w + " " + t + " " + str(vect_shape) + "\n\n")
             
 
-    elif arg3 == 'concat_t' or arg3 == 'concat1':
+    elif arg3 == 'concat_t' or arg3 == 'concat_t1':
 
         for w in ['words_x']:
             for t in target:
